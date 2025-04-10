@@ -1,0 +1,138 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+.body {
+    cursor: url('images/cursor.cur'), auto;
+}
+
+.container {
+    border: 0;
+}
+
+.logo {
+    height: 70px;
+    width: 230px;
+}
+
+.city {
+    text-align: center;
+    font-size: 20px;
+    color: #343131;
+    float: right;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-right: 50px;
+}
+
+.search-bar {
+    text-align: left;
+    font-size: 20px;
+    color: #7e7979;
+    float: right;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-right: 50px;
+}
+
+.nav-bar {
+    list-style-type: none;
+    clear: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #504d4d;
+}
+
+.nav-bar li a {
+    padding: 15px;
+    font-size: 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-bar li a:hover {
+    background-color: #7e7979;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.navbar-ver {
+    list-style-type: none;
+    background-image: linear-gradient(to bottom right, #504d4d, rgb(161, 161, 150));
+    width: 500px;
+    height: 260px;
+    padding-top: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.navbar-ver a {
+    display: block;
+    color: white;
+    margin-left: -40px;
+    transition: 0.5s;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.navbar-ver a:hover {
+    background-color: #7e7979;
+    border: 0px solid #7e7979;
+    border-radius: 20px;
+    box-shadow:1px 2px 2px 1px rgb(99, 98, 98);
+    transform: scale(1.05);
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.text-section {
+    width: 50%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.Trending-services {
+    width: 300px;
+    text-align: center;
+}
+
+.intro-image {
+    width: 600px;
+    height: 500px;
+    border: 0px solid black;
+    border-radius: 20px;
+    margin-right: 70px;
+}
+
+.home {
+    border: 2px solid #343131;
+}
+
+.footer {
+    text-align: center;
+    color: azure;
+    background-color: #343131;
+    display: block;
+    height: 30px;
+    margin-top: 200px;
+}
